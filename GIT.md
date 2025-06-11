@@ -11,3 +11,7 @@ if it fails you might want to try
 git apply --3way name-of-patch-file.patch
 ```
 solve the conflicts and commit the changes
+## Diff with another branch
+```bash
+git difftool another-branch HEAD -- <path/to/file
+```
